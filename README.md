@@ -22,7 +22,7 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-* [x] Add a launcher icon
+* [x] Add Launcher Icon
 
 ## Video Walkthrough
 
