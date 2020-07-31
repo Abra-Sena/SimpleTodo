@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
                 edit.putExtra(KEY_ITEM_POSITION, position);
                 //tell system to display the other activity
                 startActivityForResult(edit, EDIT_TEXT_CODE);
-                //add some animation between activities
+                //add animation between to go from main to edit activity
                 overridePendingTransition(R.anim.right_in, R.anim.left_out);
             }
         };
