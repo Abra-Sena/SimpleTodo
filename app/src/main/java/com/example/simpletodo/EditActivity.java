@@ -1,5 +1,6 @@
 package com.example.simpletodo;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -44,6 +45,8 @@ public class EditActivity extends AppCompatActivity {
                 setResult(RESULT_OK, update);
                 //finish edit activity, which means close the screen and go back to main page
                 finish();
+                //add animation to go back to main activity
+                overridePendingTransition(R.anim.left_in, R.anim.right_out);
             }
         });
     }

@@ -16,6 +16,8 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="0dp"
         android:layout_marginBottom="0dp"
+        android:background="@drawable/bg_add_btn"
+        android:fontFamily="@font/tienne"
         android:text="Add" />
 
     <EditText
@@ -29,6 +31,7 @@
         android:layout_marginBottom="0dp"
         android:layout_toStartOf="@+id/btnAdd"
         android:ems="10"
+        android:fontFamily="monospace"
         android:hint="Add an Item Here"
         android:inputType="textPersonName" />
 
@@ -42,5 +45,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="0dp"
         android:layout_marginTop="0dp"
-        android:layout_marginBottom="0dp" />
+        android:layout_marginBottom="0dp"
+        android:background="#DCD5D5" />
 </RelativeLayout>

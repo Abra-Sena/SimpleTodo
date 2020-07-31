@@ -1,6 +1,7 @@
 package com.example.simpletodo;
 
 import androidx.annotation.Nullable;
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -40,6 +41,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //custom action bar title
+        getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
+        getSupportActionBar().setCustomView(R.layout.actionbar_title);
+
         addButton = findViewById(R.id.btnAdd);
         addItem = findViewById(R.id.dataItem);
         viewItem = findViewById(R.id.VItem);
@@ -71,6 +76,8 @@ public class MainActivity extends AppCompatActivity {
                 edit.putExtra(KEY_ITEM_POSITION, position);
                 //tell system to display the other activity
                 startActivityForResult(edit, EDIT_TEXT_CODE);
+                //add some animation between activities
+                overridePendingTransition(R.anim.right_in, R.anim.left_out);
             }
         };
 
