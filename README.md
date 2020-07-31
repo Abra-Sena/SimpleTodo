@@ -23,6 +23,9 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 * [x] Add Launcher Icon
+* [x] Add Customize Tab Bar
+* [x] Add Screen sliding Animation from/to left/rigth when swicthing to another activity
+* [x] Style on button background
 
 ## Video Walkthrough
 
