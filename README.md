@@ -24,7 +24,7 @@ The following **additional** features are implemented:
 
 * [x] Add Launcher Icon
 * [x] Add Customize Tab Bar
-* [x] Add Screen sliding Animation from/to left/rigth when swicthing to another activity
+* [x] Add Screen sliding Animation from/to left/right when swicthing to another activity
 * [x] Style on button background
 
 ## Video Walkthrough
@@ -33,6 +33,7 @@ Here's a walkthrough of implemented user stories:
 
 <img src="Video_Walk_Through.gif" title="Video Walkthrough" width="200" alt="Video Walkthrough"><br>
 <img src="WalkThrough2.gif" title="Video Walkthrough 2" width="200" alt="Video Walkthrough 2"><br>
+<img src="WalkThrough3.gif" title="Video Walkthrough 3" width="200" alt="Video Walkthrough 3"><br>
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
