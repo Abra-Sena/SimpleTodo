@@ -6,7 +6,7 @@
 
 Submitted by: **Abravi Emiline Tekpa**
 
-Time spent: **5** hours spent in total
+Time spent: **10** hours spent in total
 
 ## User Stories
 
@@ -23,13 +23,16 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 * [x] Add Launcher Icon
+* [x] Add Customize Tab Bar
+* [x] Add Screen sliding Animation from/to left/rigth when swicthing to another activity
+* [x] Style on button background
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
 <img src="Video_Walk_Through.gif" title="Video Walkthrough" width="200" alt="Video Walkthrough"><br>
-<img src="WalkThrough2" title="Video Walkthrough 2" width="200" alt="Video Walkthrough 2"><br>
+<img src="WalkThrough2.gif" title="Video Walkthrough 2" width="200" alt="Video Walkthrough 2"><br>
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
@@ -39,7 +42,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [2020] [name of copyright owner]
+    Copyright 2020 Abra-Sena E. Tekpa
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
